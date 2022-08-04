@@ -5,7 +5,7 @@ const imgSrc = 'https://avatars.githubusercontent.com/u/68126277'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col justify-center min-h-screen py-2">
+    <div className="flex flex-col justify-center min-h-screen py-2 bg-background">
       <Head>
         <title>Home | Fyxren</title>
         <link rel="icon" href="/favicon.ico" />
