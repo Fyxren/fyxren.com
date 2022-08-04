@@ -9,6 +9,19 @@ const Home: NextPage = () => {
       <Head>
         <title>Home | Fyxren</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="title" content="Home | Fyxren" />
+        <meta name="description" content="The website of Fyxren - Professional idiot, coder, gamer." />
+
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Home | Fyxren" />
+        <meta property="og:description" content="The website of Fyxren - Professional idiot, coder, gamer." />
+        <meta property="og:image" content="https://res.cloudinary.com/dpu5ywrox/image/upload/v1659621139/adezvs9a4au7vn9w2vzt.png" />
+
+        {/* Twitter Tags*/}
+        <meta property="twitter:title" content="Home | Fyxren" />
+        <meta property="twitter:description" content="The website of Fyxren - Professional idiot, coder, gamer." />
+        <meta property="twitter:image" content="https://res.cloudinary.com/dpu5ywrox/image/upload/v1659621139/adezvs9a4au7vn9w2vzt.png" />
       </Head>
 
       <main className="flex items-center justify-between flex-1 w-full px-40">
