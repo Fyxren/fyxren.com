@@ -24,13 +24,13 @@ const Home: NextPage = () => {
         <meta property="twitter:image" content="https://res.cloudinary.com/dpu5ywrox/image/upload/v1659621139/adezvs9a4au7vn9w2vzt.png" />
       </Head>
 
-      <main className="flex items-center justify-between flex-1 w-full px-40">
+      <main className="flex flex-col-reverse items-center justify-between p-5 md:flex-row md:flex-1 md:px-20 lg:px-40">
         <div className="px-2 py-5 space-y-5 border-b-4 border-main">
-          <h1 className="text-7xl">Greetings, I'm <span className="font-semibold">Fyxren</span> 👋</h1>
-          <h2 className="text-4xl italic">Professional idiot, coder, gamer</h2>
+          <h1 className="text-2xl md:text-3xl lg:text-7xl">Greetings, I'm <span className="font-semibold">Fyxren</span> 👋</h1>
+          <h2 className="text-lg italic md:text-2xl lg:text-4xl">Professional idiot, coder, gamer</h2>
         </div>
         <div>
-          <img src={imgSrc} className="duration-300 shadow-xl rounded-xl w-72 hover:-translate-y-1 hover:scale-105" />
+          <img src={imgSrc} className="duration-300 shadow-xl w-28 md:w-40 rounded-xl lg:w-72 hover:-translate-y-1 hover:scale-105" />
         </div>
       </main>
 
