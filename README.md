@@ -1,7 +1,10 @@
-# 👋 [Fyxren.com](https://fyxren.com)
-My personal website. Yeah I don't have a lot else to say honestly..
+<h1 align="center"><a href="https://fyxren.com" target="_blank">👋 Fyxren.com</a></h1>
+My personal website. It will be expanded in V2 at some point. Yeah I don't have a lot else to say honestly apart from that it's probably some fine 🍝🍝🍝.
 
-## 💻 • Stack & Tools
+
+
+<h1>💻 • Stack & Tools</h1>
+
 ![Next.js](https://img.shields.io/badge/-Next.js-000?style=for-the-badge&logo=next.js)
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-000?style=for-the-badge&logo=tailwindcss)
 
