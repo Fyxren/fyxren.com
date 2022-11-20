@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poly:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Default font: Montserrat */
+@layer base {
+  html {
+    font-family: Montserrat, system-ui, sans-serif;
+  }
+}
+
+/* Custom Classes */
+.logo-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-th-logo-start to-th-logo-end
+}
+
+.about-info-with-link {
+  @apply font-medium underline duration-300 decoration-dashed hover:text-th-accent
+}
+
+/* Themes */
+:root {
+  --background: theme("colors.light.background.main");
+  --background-light: theme("colors.light.background.light");
+
+  --accent: theme("colors.light.accent.main");
+  --accent-light: theme("colors.light.accent.light");
+  --accent-dark: theme("colors.light.accent.dark");
+
+  --primary: theme("colors.light.primary");
+  --secondary: theme("colors.light.secondary");
+
+  --logo-start: theme("colors.light.logo.start");
+  --logo-end: theme("colors.light.logo.end");
+}
+
+[data-theme="dark"] {
+  --background: theme("colors.dark.background.main");
+  --background-light: theme("colors.dark.background.light");
+
+  --accent: theme("colors.dark.accent.main");
+  --accent-light: theme("colors.dark.accent.light");
+  --accent-dark: theme("colors.dark.accent.dark");
+
+  --primary: theme("colors.dark.primary");
+  --secondary: theme("colors.dark.secondary");
+
+  --logo-start: theme("colors.dark.logo.start");
+  --logo-end: theme("colors.dark.logo.end");
+}
+
+[data-theme="amoled"] {
+  --background: theme("colors.amoled.background.main");
+  --background-light: theme("colors.amoled.background.light");
+
+  --accent: theme("colors.amoled.accent.main");
+  --accent-light: theme("colors.amoled.accent.light");
+  --accent-dark: theme("colors.amoled.accent.dark");
+
+  --primary: theme("colors.amoled.primary");
+  --secondary: theme("colors.amoled.secondary");
+
+  --logo-start: theme("colors.amoled.logo.start");
+  --logo-end: theme("colors.amoled.logo.end");
+}
+
+[data-theme="corn"] {
+  --background: theme("colors.corn.background.main");
+  --background-light: theme("colors.corn.background.light");
+
+  --accent: theme("colors.corn.accent.main");
+  --accent-light: theme("colors.corn.accent.light");
+  --accent-dark: theme("colors.corn.accent.dark");
+
+  --primary: theme("colors.corn.primary");
+  --secondary: theme("colors.corn.secondary");
+
+  --logo-start: theme("colors.corn.logo.start");
+  --logo-end: theme("colors.corn.logo.end");
+}
