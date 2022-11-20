@@ -1,10 +1,10 @@
-import '../styles/globals.css';
-import Head from 'next/head';
 import { ThemeProvider } from 'next-themes';
+import Head from 'next/head';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
+    <ThemeProvider>
       <Head>
         <meta name='keywords' content='fyxren portfolio personal' />
         <meta name='language' content='EN' />
