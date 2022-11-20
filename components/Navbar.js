@@ -13,14 +13,14 @@ const Navbar = () => {
         <div className="px-10 pt-5 pb-5 shadow-lg bg-th-background-light rounded-b-3xl">
             <div className="relative flex items-end justify-between">
                 <div className="flex items-end ">
-                    <Link href="/" className="text-3xl font-bold font-poly font-hahmlet logo-gradient">Fyxren</Link>
+                    <Link href="/" className="text-3xl font-bold font-poly logo-gradient">Fyxren</Link>
                     <ul className="items-center hidden ml-10 space-x-8 text-lg lg:flex">
                         {NavItems.map((item, index) => {
                             return (
                                 <li
                                     className={`text-lg font-semibold tracking-wide transition-colors ${router.asPath === item.path
-                                        ? "text-accent"
-                                        : "hover:text-accent-dark text-primary duration-300"
+                                        ? "text-th-accent"
+                                        : "hover:text-th-accent-dark text-th-primary duration-300"
                                         }`}
                                     key={index}
                                 >
@@ -48,10 +48,10 @@ const Navbar = () => {
                     </button>
                     {isMenuOpen && (
                         <div className="absolute top-0 left-0 w-full">
-                            <div className="p-5 border rounded shadow-xl bg-th-background-light">
+                            <div className="p-5 border-th-accent-light border-2 rounded shadow-xl bg-th-background-light">
                                 <div className="flex items-center justify-between mb-4">
                                     <div>
-                                        <span className="text-3xl font-semibold font-hahmlet logo-gradient">Fyxren</span>
+                                        <span className="text-3xl font-semibold font-poly logo-gradient">Fyxren</span>
                                     </div>
                                     <div className="flex justify-center items-center align-middle">
                                         <ThemeChanger />
@@ -71,8 +71,8 @@ const Navbar = () => {
                                             return (
                                                 <li
                                                     className={`tracking-wide transition-colors duration-300 ${router.asPath === item.path
-                                                        ? "text-accent"
-                                                        : "hover:text-accent-dark text-primary"
+                                                        ? "text-th-accent"
+                                                        : "hover:text-th-accent-dark text-th-primary"
                                                         }`}
                                                     key={index}
                                                 >
