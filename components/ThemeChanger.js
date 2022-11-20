@@ -22,7 +22,7 @@ const ThemeChanger = () => {
         <select
           name="theme"
           id="theme-select"
-          className="bg-th-background text-th-primary border-th-secondary border-2 rounded-lg py-1 px-3 font-semibold"
+          className="bg-th-background text-th-primary border-th-accent-light border-2 rounded-lg py-1 px-3 font-semibold focus:border-th-accent-dark"
           onChange={(e) => setTheme(e.currentTarget.value)}
           value={theme}
         >
