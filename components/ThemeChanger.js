@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
 
 const themes = [
-  { name: '🤍 - Light', value: 'light' },
-  { name: '🖤 - Dark', value: 'dark' },
-  { name: '🖤 - Amoled', value: 'amoled' },
-  { name: '🖤 - CornHub', value: 'corn' },
+  { name: '🌞 - Light', value: 'light' },
+  { name: '🌚 - Dark', value: 'dark' },
+  { name: '🌚 - Amoled', value: 'amoled' },
+  { name: '🌚 - CornHub', value: 'corn' },
 ];
 
 const ThemeChanger = () => {
