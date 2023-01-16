@@ -37,7 +37,28 @@ export default function About() {
                     </div>
                 </div>
 
+                <div className="rounded-xl col-span-3 bg-base-200 shadow-md p-5 space-y-5">
+                    <div className="space-y-2">
+                        <h2 className="font-semibold text-2xl font-poly">Greetings 👋</h2>
+                        <ul className="list-disc list-inside">
+                            <li>My name is <span className="font-semibold">Ben // Fyxren</span></li>
+                            <li><span className="font-semibold">100% male</span> & toaster, <span className="font-semibold">18</span> years old, and still attending <span className="font-semibold">highschool</span></li>
+                            <li>Writes some <span className="font-semibold">code</span>, plays some <span className="font-semibold">games</span></li>
+                            <li>Hobbying with the <span className="font-semibold">piano</span></li>
+                            <li>Watches <span className="font-semibold">anime</span> and reads <span className="font-semibold">manga</span></li>
+                        </ul>
+                        <p className="">
+                            I start whatever I want and rarely finish something basically.
+                            Currently mostly in buggy websites, like this one and Discord bots, like McData.
+                        </p>
+                        <p className="italic">
+                            That's about it, my life isn't too interesting to be honest.
+                            Besides, if I've forgotten it, it wasn't too important..., right?
+                        </p>
 
+                    </div>
+
+                </div>
 
             </main>
 
