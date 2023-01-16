@@ -57,7 +57,11 @@ export default function About() {
                         </p>
 
                     </div>
-
+                    <div className="space-y-2">
+                        <h2 className="font-semibold text-2xl font-poly">Stack 💻</h2>
+                        <p>But.., what <span className="italic">stuff</span> do I use??</p>
+                        <p className="font-medium text-sm">Wish I'd knew tbh.. ¯\_(ツ)_/¯</p>
+                    </div>
                 </div>
 
             </main>
