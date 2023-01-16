@@ -48,7 +48,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 {/* Mobile End */}
-                <Link href="/" className="btn btn-ghost normal-case text-2xl font-bold logo-gradient">Fyxren</Link>
+                <Link href="/" className="btn btn-ghost normal-case text-2xl font-bold logo-gradient font-poly">Fyxren</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
