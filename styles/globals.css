@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-logo-start to-logo-end
+}
