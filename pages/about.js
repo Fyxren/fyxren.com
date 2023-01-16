@@ -21,7 +21,7 @@ export default function About() {
                         <Heart />
                         Love ya
                     </span>
-                    <div className="card-body">
+                    <div className="py-5 px-5">
                         <h2 className="card-title">Ben // Fyxren (18)</h2>
                         <p>Professional idiot, coder, gamer.</p>
                         <div className="flex flex-col gap-2 mt-5">
