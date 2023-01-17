@@ -1,4 +1,4 @@
-import { Cake, Heart, MapPin } from "lucide-react";
+import { Cake, Github, Heart, MapPin, Twitter } from "lucide-react";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 
@@ -13,7 +13,7 @@ export default function About() {
 
             <Navbar />
 
-            <main className="p-10 grid grid-cols-4 gap-10">
+            <main className="p-10 grid grid-cols-3 gap-10">
 
                 <div className="rounded-xl bg-base-200 shadow-md col-span-1">
                     <img src="/images/banner.png" alt="Fyxren Banner" className="rounded-t-xl" />
@@ -24,7 +24,7 @@ export default function About() {
                     <div className="py-5 px-5">
                         <h2 className="card-title">Ben // Fyxren (18)</h2>
                         <p>Professional idiot, coder, gamer.</p>
-                        <div className="flex flex-col gap-2 mt-5">
+                        <div className="flex flex-col gap-2 mt-3">
                             <div className="flex items-center gap-2">
                                 <MapPin className="h-5 w-5" />
                                 The Netherlands
@@ -34,10 +34,15 @@ export default function About() {
                                 March 25th, 2004
                             </div>
                         </div>
+                        {/* Discord Activity */}
+                        <div className="mt-5">
+                            <h3 className="text-lg font-semibold">Discord Activity</h3>
+                            <p className="font-medium text-sm">Soon I guess.. ¯\_(ツ)_/¯</p>
+                        </div>
                     </div>
                 </div>
 
-                <div className="rounded-xl col-span-3 bg-base-200 shadow-md p-5 space-y-5">
+                <div className="rounded-xl col-span-2 bg-base-200 shadow-md p-5 space-y-5">
                     <div className="space-y-2">
                         <h2 className="font-semibold text-2xl font-poly">Greetings 👋</h2>
                         <ul className="list-disc list-inside">
