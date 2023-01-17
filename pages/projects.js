@@ -5,7 +5,7 @@ import Project from "../components/Project";
 
 export default function Projects() {
     return (
-        <div className="flex flex-col h-screen max-h-screen">
+        <div className="flex flex-col h-screen max-h-screen select-none">
             <Head>
                 <title>Projects - Fyxren.com</title>
                 <meta name="description" content="Fyxren's Projects - Professional idiot, coder, gamer." />

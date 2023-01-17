@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <div className="flex flex-col h-screen max-h-screen">
+        <div className="flex flex-col h-screen max-h-screen select-none">
             <Head>
                 <title>About - Fyxren.com</title>
                 <meta name="description" content="About Fyxren - Professional idiot, coder, gamer." />

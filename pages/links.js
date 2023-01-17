@@ -5,7 +5,7 @@ import Link from "../components/Link";
 
 export default function Links() {
     return (
-        <div className="flex flex-col h-screen max-h-screen">
+        <div className="flex flex-col h-screen max-h-screen select-none">
             <Head>
                 <title>Links - Fyxren.com</title>
                 <meta name="description" content="Fyxren's Socials - Professional idiot, coder, gamer." />
