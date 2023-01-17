@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import ProjectList from "../assets/projects";
 import Project from "../components/Project";
+import Footer from "../components/Footer";
 
 export default function Projects() {
     return (
@@ -21,9 +22,9 @@ export default function Projects() {
                         return <Project data={val} key={val.name} />;
                     })}
                 </div>
-
-
             </main>
+
+            <Footer />
 
         </div >
     );

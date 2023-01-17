@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import LinkList from "../assets/links";
 import Link from "../components/Link";
+import Footer from "../components/Footer";
 
 export default function Links() {
     return (
@@ -21,9 +22,9 @@ export default function Links() {
                         return <Link data={val} key={val.name} />;
                     })}
                 </div>
-
-
             </main>
+
+            <Footer />
 
         </div >
     );

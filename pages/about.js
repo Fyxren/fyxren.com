@@ -1,5 +1,6 @@
 import { Cake, Heart, MapPin } from "lucide-react";
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export default function About() {
@@ -73,6 +74,8 @@ export default function About() {
                 </div>
 
             </main>
+
+            <Footer />
 
         </div >
     );
