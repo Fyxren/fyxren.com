@@ -60,7 +60,7 @@ const Projects = [
     },
     {
         name: 'Snapchat Data Example',
-        desc: '👻 An example of the exported data from Snapchat when requesting your data. Usefull when building something with the Snapchat data package.',
+        desc: '👻 An example of the exported data from Snapchat when requesting your data.',
         status: 'active',
         stack: ['Markdown'],
         category: 'Collection',
