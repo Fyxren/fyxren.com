@@ -13,10 +13,10 @@ export default function About() {
 
             <Navbar />
 
-            <main className="p-10">
-                <h1 className="text-4xl font-bold text-center">About</h1>
+            <main className="p-5 md:p-10">
+                <h1 className="text-3xl font-bold lg:text-4xl lg:text-center">About</h1>
 
-                <div className="grid grid-cols-3 gap-10 py-5">
+                <div className="grid grid-cols-1 py-5 space-y-10 lg:space-y-0 lg:gap-10 lg:grid-cols-3">
                     <div className="col-span-1 shadow-md rounded-xl bg-base-200">
                         <img src="/images/banner.png" alt="Fyxren Banner" className="rounded-t-xl" />
                         <span className="flex items-center gap-2 px-5 py-2 bg-neutral text-neutral-content">
