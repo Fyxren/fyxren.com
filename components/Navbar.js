@@ -40,7 +40,7 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52">
                         {NavItems.map(val => {
                             return (
-                                <li>
+                                <li key={val.name}>
                                     <Link href={val.href}>{val.name}</Link>
                                 </li>
                             );
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1">
                     {NavItems.map(val => {
                         return (
-                            <li>
+                            <li key={val.name}>
                                 <Link href={val.href}>{val.name}</Link>
                             </li>
                         );
@@ -71,7 +71,7 @@ const Navbar = () => {
                         <div className="grid grid-cols-1 gap-3 p-3" tabIndex={0}>
                             {Themes.map(val => {
                                 return (
-                                    <div className="outline-base-content overflow-hidden rounded-lg outline outline-2 outline-offset-2" data-set-theme={val} data-act-class="outline">
+                                    <div key={val} className="outline-base-content overflow-hidden rounded-lg outline outline-2 outline-offset-2" data-set-theme={val} data-act-class="outline">
                                         <div data-theme={val} className="bg-base-100 text-base-content w-full cursor-pointer font-sans">
                                             <div className="grid grid-cols-5 grid-rows-3">
                                                 <div className="col-span-5 row-span-3 row-start-1 flex gap-1 py-3 px-4">
