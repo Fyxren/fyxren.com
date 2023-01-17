@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { themeChange } from "theme-change";
 
-const Themes = ['light', 'corn'];
+const Themes = ['light', 'dark', 'corn', 'night', 'valentine'];
 const NavItems = [
     {
         name: 'Home',
@@ -30,7 +30,7 @@ const Navbar = () => {
     });
 
     return (
-        <div className="shadow-md navbar bg-base-200 rounded-xl">
+        <div className="shadow-md navbar bg-base-200 rounded-b-xl">
             <div className="navbar-start">
                 {/* Mobile */}
                 <div className="dropdown">

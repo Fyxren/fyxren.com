@@ -19,7 +19,7 @@ export default function Home() {
           <div>
             <h1 className="text-4xl lg:text-6xl font-poly flex-nowrap">Greetings, I'm <span className="font-bold">Fyxren</span>👋</h1>
             <p className="py-6 text-lg lg:text-2xl">Professional idiot, coder, gamer.</p>
-            <Link className="btn btn-primary" href="/about">About me</Link>
+            <Link className="btn btn-accent" href="/about">About me</Link>
           </div>
         </div>
       </main>
