@@ -15,7 +15,7 @@ export default function Links() {
             <Navbar />
 
             <main className="p-5 md:p-10">
-            <h1 className="text-3xl font-bold lg:text-4xl lg:text-center">Socials & Links</h1>
+                <h1 className="text-3xl font-bold lg:text-4xl lg:text-center">Socials & Links</h1>
                 <div className="grid grid-cols-1 gap-5 py-5 lg:gap-10 md:grid-cols-2 lg:grid-cols-3">
                     {LinkList.map(val => {
                         return <Link data={val} key={val.name} />;
