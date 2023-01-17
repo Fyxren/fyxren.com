@@ -14,9 +14,9 @@ export default function Projects() {
 
             <Navbar />
 
-            <main className="p-10">
-                <h1 className="font-bold text-4xl text-center">Projects</h1>
-                <div className="grid grid-cols-3 py-5 gap-10">
+            <main className="p-5 lg:p-10">
+                <h1 className="text-3xl font-bold lg:text-4xl lg:text-center">Projects</h1>
+                <div className="grid grid-cols-1 gap-5 py-5 md:grid-cols-2 lg:gap-10 lg:grid-cols-3">
                     {ProjectList.map(val => {
                         return <Project data={val} key={val.name} />;
                     })}
