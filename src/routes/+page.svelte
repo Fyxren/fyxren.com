@@ -1,7 +1,9 @@
 <script>
-	import Header from '$lib/components/elements/Header.svelte';
+	import About from '$lib/components/elements/About.svelte';
+import Header from '$lib/components/elements/Header.svelte';
 </script>
 
-<main>
+<main class="space-y-20">
 	<Header />
+	<About />
 </main>
