@@ -34,7 +34,7 @@
 			{/each}
 		{:else}
 			{#each Array(2) as _, i}
-				<div class="border-2 h-60 bg-base-200 border-base-300" />
+				<div class="rounded-lg bg-base-200 border-base-300 h-52 animate-pulse" />
 			{/each}
 		{/if}
 	</div>
