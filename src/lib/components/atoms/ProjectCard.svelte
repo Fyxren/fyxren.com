@@ -6,7 +6,7 @@
 
 <a href={repo.link} target="_blank">
 	<article
-		class="flex flex-col justify-between h-full p-5 border-2 rounded-lg bg-base-200 border-base-300"
+		class="flex flex-col justify-between h-full p-5 duration-500 border-2 rounded-lg bg-base-200 border-base-300 hover:border-primary hover:shadow-xl hover:-translate-y-1"
 	>
 		<div>
 			<div class="flex items-center gap-1">
