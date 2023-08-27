@@ -12,3 +12,9 @@ export interface IRepo {
     repo?: string;
     title?: string;
 }
+
+export interface IError {
+    id: number;
+    header: string;
+    message: string;
+}
