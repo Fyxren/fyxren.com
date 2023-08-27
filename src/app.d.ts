@@ -10,3 +10,5 @@ declare global {
 }
 
 export {};
+
+declare const __VERSION__ : string;
