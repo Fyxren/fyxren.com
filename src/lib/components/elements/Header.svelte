@@ -1,4 +1,4 @@
-<div class="flex flex-col-reverse items-center justify-between mt-16 lg:mt-40 font-rubik lg:flex-row">
+<div class="flex flex-col-reverse items-center justify-between mt-16 lg:mt-24 font-rubik lg:flex-row">
 	<div class="mt-5 text-center lg:text-left lg:mt-auto">
 		<p class="text-2xl lg:text-5xl">Greetings! I'm</p>
 		<h1 class="text-6xl font-bold tracking-wider lg:text-9xl">Fyxren</h1>
