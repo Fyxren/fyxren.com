@@ -5,7 +5,7 @@
 	import Projects from '$lib/components/elements/Projects.svelte';
 </script>
 
-<main class="space-y-20">
+<main class="space-y-5 md:space-y-20">
 	<Header />
 	<About />
 	<Projects />

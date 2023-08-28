@@ -27,7 +27,7 @@
 
 <div>
 	<h1 class="text-4xl font-bold font-rubik">Projects</h1>
-	<div class="grid grid-cols-2 gap-5 mt-5">
+	<div class="grid gap-5 mt-5 lg:grid-cols-2">
 		{#if repos}
 			{#each repos as repo}
 				<ProjectCard {repo} />

@@ -3,7 +3,7 @@
 	import meta from '$lib/util/meta';
 </script>
 
-<div class="px-52">
+<div class="p-5 md:px-20 lg:px-52">
 	<slot />
 </div>
 

@@ -21,15 +21,15 @@
 	}, 120_000);
 </script>
 
-<div class="grid grid-cols-2">
-	<div>
+<div class="grid gap-5 lg:grid-cols-2">
+	<div class="">
 		<img
 			src="https://lanyard-profile-readme.vercel.app/api/462914535351779328?idleMessage=404%20-%20Activity%20Not%20Found"
 			alt="Discord Status"
 			class=""
 		/>
 	</div>
-	<div class="space-y-2">
+	<div class="space-y-1">
 		<p>
 			Hey there! My name is <span class="font-semibold text-primary">Ben // Fyxren</span>. I am a
 			<span class="font-semibold text-primary">Smart Industry</span> student and dabble as a

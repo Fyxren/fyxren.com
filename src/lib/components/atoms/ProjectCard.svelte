@@ -17,7 +17,7 @@
 				/>
 				<h5 class="font-thin capitalize">{repo.owner}</h5>
 			</div>
-			<h1 class="mt-2 text-2xl font-medium font-rubik">{repo.title}</h1>
+			<h1 class="mt-2 text-lg font-medium md:text-2xl font-rubik">{repo.title}</h1>
 			<p>{repo.description}</p>
 		</div>
 		<div class="flex gap-4 mt-2">

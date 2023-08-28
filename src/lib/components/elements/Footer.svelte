@@ -6,7 +6,7 @@
 
 <footer class="mb-20">
 	<hr />
-	<div class="flex items-center justify-between py-5">
+	<div class="flex flex-col items-center justify-between gap-5 py-5 text-center lg:flex-row">
 		<div class="flex gap-2 mt-4">
 			<SocialIcon link={links.github}>
 				<img src="/icons/github.svg" alt="github icon" class="w-7" />
