@@ -12,10 +12,23 @@ export default {
     },
   },
   plugins: [
-    require('daisyui')
+    require('daisyui'),
+    require('tailwind-scrollbar')
   ],
   daisyui: {
-    themes: ['winter'],
+    themes: [
+      {
+        custom: {
+          primary: '#199cff',
+          secondary: '#ff21f7',
+          accent: '#c338ff',
+          neutral: '#fff',
+          'base-100': '#191b2b',
+          'base-200': '#1f2133',
+          'base-300': '',
+        }
+      }
+    ],
   }
 }
 

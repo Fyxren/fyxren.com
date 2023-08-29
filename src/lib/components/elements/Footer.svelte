@@ -18,7 +18,7 @@
 				<img src="/icons/linkedin.svg" alt="linkedin icon" class="w-7" />
 			</SocialIcon>
 		</div>
-		<p>
+		<p class="text-center">
 			Hand-crafted with equal parts <span class="font-bold text-secondary">dedication</span> and
 			<span class="font-bold text-secondary">procrastination</span>.
 		</p>

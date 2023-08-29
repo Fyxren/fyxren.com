@@ -4,9 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Default font: Poppins */
+/* Default font: Quicksand */
 @layer base {
     html {
         font-family: Quicksand, system-ui, sans-serif;
+    }
+
+    .gradient-text {
+        @apply bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent
     }
 }

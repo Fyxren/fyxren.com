@@ -2,9 +2,10 @@
 	export let link: string;
 </script>
 
-<a
-	href={link}
-	class="p-3 duration-500 border-2 border-transparent bg-base-200 rounded-xl hover:border-base-300 hover:shadow-xl hover:-translate-y-1"
+<a href={link}
+	class="rounded-lg mx-auto bg-transparent hover:bg-gradient-to-r p-[2px] from-primary to-secondary duration-500 hover:shadow-xl hover:-translate-y-1"
 >
-	<slot />
+	<div class="flex flex-col justify-between h-full p-4 rounded-md bg-base-200">
+		<slot />
+	</div>
 </a>

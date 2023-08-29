@@ -3,7 +3,7 @@
 	import meta from '$lib/util/meta';
 </script>
 
-<div class="p-5 md:px-20 lg:px-52">
+<div class="p-5 md:px-20 lg:px-52 scrollbar-thin scrollbar-thumb-red-500 scrollbar-track-blue-500 scrollbar-corner-green-500">
 	<slot />
 </div>
 

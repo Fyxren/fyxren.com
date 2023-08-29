@@ -24,9 +24,9 @@
 <div class="grid gap-5 lg:grid-cols-2">
 	<div class="">
 		<img
-			src="https://lanyard-profile-readme.vercel.app/api/462914535351779328?idleMessage=404%20-%20Activity%20Not%20Found"
+			src="https://lanyard-profile-readme.vercel.app/api/462914535351779328?bg=1f2133&showDisplayName=true&idleMessage=As%20empty%20as%20my%20brain,%20have%20a%20cookie!%20%F0%9F%8D%AA"
 			alt="Discord Status"
-			class=""
+			class="rounded-xl"
 		/>
 	</div>
 	<div class="space-y-1">
