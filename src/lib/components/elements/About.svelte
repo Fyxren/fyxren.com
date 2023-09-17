@@ -1,5 +1,6 @@
 <script>
 	import Link from '$lib/components/atoms/Link.svelte';
+	import Lanyard from '../atoms/Lanyard.svelte';
 	const ANIME = 'https://anilist.co/user/Fyxren/animelist';
 	const MANGA = 'https://anilist.co/user/Fyxren/mangalist';
 	const PIANO = 'https://www.youtube.com/playlist?list=PLOT6alYbTjQQ-tlYPUODnaKjDrzT-Fy2C';
@@ -23,11 +24,12 @@
 
 <div class="grid gap-5 lg:grid-cols-2">
 	<div class="">
-		<img
+		<!-- <img
 			src="https://lanyard-profile-readme.vercel.app/api/462914535351779328?bg=1f2133&showDisplayName=true&idleMessage=As%20empty%20as%20my%20brain,%20have%20a%20cookie!%20%F0%9F%8D%AA"
 			alt="Discord Status"
 			class="rounded-xl"
-		/>
+		/> -->
+		<Lanyard />
 	</div>
 	<div class="space-y-1">
 		<p>

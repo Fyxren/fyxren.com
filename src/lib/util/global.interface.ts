@@ -36,6 +36,7 @@ export interface ILanyardData {
     active_on_discord_mobile: boolean;
     active_on_discord_desktop: boolean;
     active_on_discord_web: boolean;
+    [key: string]: any;
 }
 
 export interface IAssets {
