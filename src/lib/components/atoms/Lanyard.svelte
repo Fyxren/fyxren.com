@@ -72,7 +72,10 @@
 					</div>
 				</div>
 			</a>
-			<div class="tooltip-left tooltip tooltip-info" data-tip="This card does not update yet. I couldn't get it to work..">
+			<div
+				class="tooltip-left tooltip tooltip-info"
+				data-tip="This card does not update yet. I couldn't get it to work.."
+			>
 				<img src="/icons/discord.svg" alt="Discord logo" class="w-6" />
 			</div>
 		</div>
