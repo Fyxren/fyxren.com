@@ -14,6 +14,21 @@
 		});
 	});
 
+	function parseLargeImage(asset: string) {
+		/*
+			If the link is an external link, it will start with "mp:external"
+			It looks something like this: "mp:external/mi5SEosv4mEXgyHRM1OCDl40N78Y_WS9hb1c8ji-2nQ/https/cdn.rcd.gg/PreMiD/websites/P/Pinterest/assets/logo.png"
+			By splitting at "https" and taking the second item, we get the actual link when we replace the first "/" with "https://"
+		*/
+		if (asset.startsWith('mp:external')) {
+			let link = asset.split('https')[1];
+			if (link.includes('%2520')) link = link.replace('%2520', '%20');
+			return link.replace('/', 'https://');
+		} else {
+			return `https://cdn.discordapp.com/app-assets/${Lanyard.activities[0].application_id}/${Lanyard.activities[0].assets?.large_image}.webp?size=256`;
+		}
+	}
+
 	const DiscordActivityTypes: { [key: string]: string } = {
 		0: 'Playing',
 		1: 'Streaming',
@@ -103,18 +118,28 @@
 			</a>
 		{:else if Lanyard.activities.length > 0 && Lanyard.activities[0].id !== 'spotify:1'}
 			<div class="flex items-center gap-5">
-				<img
-					src={`https://cdn.discordapp.com/app-assets/${Lanyard.activities[0].application_id}/${Lanyard.activities[0].assets?.large_image}.webp?size=256`}
-					alt="Activity_Large_Image"
-					class="h-32 rounded"
-				/>
+				{#if Lanyard.activities[0].assets?.large_image}
+					<img
+						src={parseLargeImage(Lanyard.activities[0].assets.large_image)}
+						alt="Activity_Large_Image"
+						class="h-32 rounded"
+					/>
+				{:else}
+					<div data-tip="Placeholder image <3" class="tooltip tooltip-primary">
+						<img
+							src="/catMoonPhases.jpeg"
+							alt="Activity_Large_Image"
+							class="h-32 rounded"
+						/>
+					</div>
+				{/if}
 				<div>
 					<p class="font-medium tracking-wider text-secondary">
 						{DiscordActivityTypes[Lanyard.activities[0].type]}
 					</p>
 					<h6 class="text-xl font-semibold font-rubik">{Lanyard.activities[0].name}</h6>
-					<p>{Lanyard.activities[0].details}</p>
-					<p>{Lanyard.activities[0].state}</p>
+					<p>{Lanyard.activities[0].details ?? ''}</p>
+					<p>{Lanyard.activities[0].state ?? ''}</p>
 				</div>
 			</div>
 		{:else}
