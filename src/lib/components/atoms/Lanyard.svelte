@@ -81,7 +81,7 @@
 								{#if !Lanyard.customActivity.emoji?.id}
 									{Lanyard.customActivity.emoji.name}
 								{/if}
-								{Lanyard.customActivity.state}
+								{Lanyard.customActivity.state ?? ''}
 							</p>
 						{/if}
 					</div>
