@@ -12,7 +12,7 @@
 	</div>
 	<div class="flex gap-2">
 		<span
-			class="chip capitalize"
+			class="chip capitalize cursor-default"
 			class:variant-ghost-success={project.status === 'active'}
 			class:variant-ghost-warning={project.status === 'on hold'}
 			class:variant-ghost-error={project.status === 'deprecated'}
@@ -21,7 +21,7 @@
 		{#each project.chips as chip}
 			{#if chip.type === 'text'}
 				<span
-					class="chip variant-outline-primary capitalize"
+					class="chip variant-outline-primary capitalize cursor-default"
 					>{chip.text}</span
 				>
 			{:else if chip.type === 'link'}
