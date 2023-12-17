@@ -3,10 +3,6 @@
 
 	const NavItems = [
 		{
-			name: 'Home',
-			href: '/'
-		},
-		{
 			name: 'About',
 			href: '#about'
 		},
@@ -43,7 +39,7 @@
 <div class="h-screen flex flex-col">
 	<div class="place-self-center py-2 px-10 mt-2 flex gap-10 sticky">
 		{#each NavItems as nav}
-			<a href={nav.href} on:click={handleAnchorClick}>
+			<a href={nav.href} on:click={handleAnchorClick} class="btn btn-sm border-b-2 border-transparent hover:border-primary-500">
 				{nav.name}
 			</a>
 		{/each}
