@@ -39,6 +39,7 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "1.5.3",
+    "lucide-svelte": "^0.298.0",
     "sk-lanyard": "^0.2.7"
   }
 }
