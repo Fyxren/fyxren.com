@@ -20,9 +20,9 @@
 	$: lanyardData = $lanyard;
 	$: status = statusColors[lanyardData?.discord_status];
 	$: customStatus = lanyardData?.activities.find((activity) => activity.type === 4);
-	$: activities = lanyardData?.activities.filter(
-		(activity) => activity.type !== 4 && activity.type !== 2
-	);
+	// $: activities = lanyardData?.activities.filter(
+		// (activity) => activity.type !== 4 && activity.type !== 2
+	// );
 	$: if (lanyardData && lanyardData.spotify) {
 		startProgress(lanyardData.spotify);
 	}
@@ -54,6 +54,7 @@
 		clearInterval(intervalId);
 	});
 
+	// If I ever want to add other Discord activities in here. Issue for later.
 	// function parseLargeImage(asset: string) {
 	// 	/*
 	// 		If the link is an external link, it will start with "mp:external"
@@ -105,11 +106,11 @@
 						<img
 							src={lanyardData.spotify.album_art_url}
 							alt="Spotify Album Art"
-							class="h-32 rounded-lg"
+							class="h-24 md:h-32 rounded-lg"
 						/>
 						<div class="w-full">
 							<p class="text-[#1DB954] font-bold">Listening to</p>
-							<p class="text-2xl tracking-wide text-left">
+							<p class="text-xl md:text-2xl tracking-wide text-left">
 								{lanyardData.spotify.song}
 							</p>
 							<p>{lanyardData.spotify.artist}</p>

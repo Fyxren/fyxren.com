@@ -43,8 +43,8 @@
 		{/each}
 	</div>
 	<div class="flex flex-col justify-center h-screen space-y-4">
-		<h1 class="text-7xl font-thin tracking-wider">Fyxren</h1>
-		<p class="text-xl italic tracking-wide">Smart Industry student, hobbyist coder and gamer.</p>
+		<h1 class="text-5xl xl:text-7xl font-thin tracking-wider">Fyxren</h1>
+		<p class="text-lg xl:text-xl italic tracking-wide">Smart Industry student, hobbyist coder and gamer.</p>
 	</div>
 
 	{#if atTop}

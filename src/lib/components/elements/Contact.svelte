@@ -4,7 +4,7 @@
 
 <div id="contact" class="mb-20 space-y-4">
 	<h1 class="h1 font-thin tracking-wider">Contact</h1>
-	<div class="grid grid-cols-2 gap-4">
+	<div class="grid xl:grid-cols-2 gap-4">
 		<div class="space-y-2">
 			<h2 class="h3 font-thin tracking-wider">Socials</h2>
 			<div class="grid grid-cols-2 gap-2 justify-between">

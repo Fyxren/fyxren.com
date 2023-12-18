@@ -2,7 +2,7 @@
 	import Lanyard from "../atoms/Lanyard.svelte";
 
 </script>
-<div id="about" class="grid grid-cols-2 gap-10 mb-20">
+<div id="about" class="grid xl:grid-cols-2 gap-10 mb-20">
     <Lanyard />
 	<div class="space-y-4 tracking-wide font-thin">
 		<p>
