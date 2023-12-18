@@ -17,7 +17,6 @@
 	];
 
 	function handleAnchorClick(event: MouseEvent) {
-		console.log(typeof event, event);
 		event.preventDefault();
 		const link = event.currentTarget as HTMLAnchorElement;
 		const anchorId = new URL(link.href).hash.replace('#', '');
@@ -31,7 +30,6 @@
 	let atTop = true;
 	function handleScroll(event: Event) {
 		atTop = window.scrollY === 0;
-		console.log('Scroll event fired');
 	}
 </script>
 
