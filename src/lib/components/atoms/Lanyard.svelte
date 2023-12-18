@@ -71,7 +71,7 @@
 </script>
 
 {#if lanyardData}
-	<div class="card p-4 space-y-4">
+	<div class="card p-4 space-y-4 h-full">
 		<div class="flex items-center gap-4 font-thin">
 			<img
 				src={`https://cdn.discordapp.com/avatars/${lanyardData.discord_user.id}/${lanyardData.discord_user.avatar}.png`}
@@ -98,7 +98,7 @@
 				</div>
 			</div>
 		</div>
-		<div>
+		<div class="">
 			{#if lanyardData.spotify}
 				<a target="_blank" href={`https://open.spotify.com/track/${lanyardData.spotify.track_id}`}>
 					<div class="flex items-center gap-5">
@@ -121,6 +121,8 @@
 						</div>
 					</div>
 				</a>
+			{:else}
+				<div class="flex items-center justify-center py-4 italic">Not listening to Spotify</div>
 			{/if}
 		</div>
 	</div>
