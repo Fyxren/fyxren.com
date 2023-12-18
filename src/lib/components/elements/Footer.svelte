@@ -14,7 +14,7 @@
 			and
 			<span class="text-primary-500">procrastination.</span>
 		</div>
-		<div class="md:col-span-2 md:place-self-end">
+		<div class="md:col-span-2 md:place-self-end hover:text-primary-500 duration-300">
 			<a href="https://github.com/Fyxren/fyxren.com/releases">
 				{pkg.version}
 			</a>
