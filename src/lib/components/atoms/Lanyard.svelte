@@ -128,5 +128,5 @@
 		</div>
 	</div>
 {:else}
-	<div class="card"></div>
+	<div class="card" />
 {/if}
