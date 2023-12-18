@@ -21,7 +21,7 @@
 	$: status = statusColors[lanyardData?.discord_status];
 	$: customStatus = lanyardData?.activities.find((activity) => activity.type === 4);
 	// $: activities = lanyardData?.activities.filter(
-		// (activity) => activity.type !== 4 && activity.type !== 2
+	// (activity) => activity.type !== 4 && activity.type !== 2
 	// );
 	$: if (lanyardData && lanyardData.spotify) {
 		startProgress(lanyardData.spotify);

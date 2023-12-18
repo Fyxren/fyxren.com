@@ -37,14 +37,20 @@
 <div class="h-screen flex flex-col">
 	<div class="place-self-center py-2 px-10 mt-2 flex gap-10 sticky">
 		{#each NavItems as nav}
-			<a href={nav.href} on:click={handleAnchorClick} class="btn btn-sm border-b-2 border-transparent hover:border-primary-500">
+			<a
+				href={nav.href}
+				on:click={handleAnchorClick}
+				class="btn btn-sm border-b-2 border-transparent hover:border-primary-500"
+			>
 				{nav.name}
 			</a>
 		{/each}
 	</div>
 	<div class="flex flex-col justify-center h-screen space-y-4">
 		<h1 class="text-5xl xl:text-7xl font-thin tracking-wider">Fyxren</h1>
-		<p class="text-lg xl:text-xl italic tracking-wide">Smart Industry student, hobbyist coder and gamer.</p>
+		<p class="text-lg xl:text-xl italic tracking-wide">
+			Smart Industry student, hobbyist coder and gamer.
+		</p>
 	</div>
 
 	{#if atTop}

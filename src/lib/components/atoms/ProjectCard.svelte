@@ -20,10 +20,7 @@
 		>
 		{#each project.chips as chip}
 			{#if chip.type === 'text'}
-				<span
-					class="chip variant-outline-primary capitalize cursor-default"
-					>{chip.text}</span
-				>
+				<span class="chip variant-outline-primary capitalize cursor-default">{chip.text}</span>
 			{:else if chip.type === 'link'}
 				<a href={chip.link} target="_blank">
 					<span
