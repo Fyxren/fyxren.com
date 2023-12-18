@@ -122,14 +122,11 @@
 					</div>
 				</a>
 			{:else}
-				<div class="flex items-center justify-center py-4 italic">Not listening to Spotify</div>
+				<!-- It's terrible, can't be bothered to fix it currently.. -->
+				<div class="flex items-center justify-center mt-10 italic">Not listening to Spotify</div>
 			{/if}
 		</div>
 	</div>
 {:else}
 	<div class="card"></div>
 {/if}
-
-<!-- <pre>
-    {JSON.stringify($lanyard ?? {}, null, 2)}
-</pre> -->
