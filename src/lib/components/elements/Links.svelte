@@ -1,0 +1,37 @@
+<script>
+	import * as Card from '$lib/components/ui/card';
+	import links from '$lib/data/links';
+	import { ExternalLink } from 'lucide-svelte';
+</script>
+
+<div class="py-8">
+	<h1 class="text-4xl font-thin">Links</h1>
+	<div class="grid grid-cols-2 gap-8 mt-4">
+		<div class="grid grid-cols-2 gap-2">
+			{#each links.socials as link (link.name)}
+				<Card.Root>
+					<Card.Header>
+						<Card.Title class="flex items-center gap-2">
+							{link.name}
+							<ExternalLink class="w-4 h-4" />
+						</Card.Title>
+						<Card.Description>{link.handle}</Card.Description>
+					</Card.Header>
+				</Card.Root>
+			{/each}
+		</div>
+		<div class="grid grid-cols-2 gap-4">
+			{#each links.links as link (link.name)}
+            <Card.Root>
+                <Card.Header>
+                    <Card.Title class="flex items-center gap-2">
+                        {link.name}
+                        <ExternalLink class="w-4 h-4" />
+                    </Card.Title>
+                    <Card.Description>{link.handle}</Card.Description>
+                </Card.Header>
+            </Card.Root>
+			{/each}
+		</div>
+	</div>
+</div>
