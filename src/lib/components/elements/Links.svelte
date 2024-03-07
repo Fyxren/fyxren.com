@@ -4,7 +4,7 @@
 	import { ExternalLink } from 'lucide-svelte';
 </script>
 
-<div class="py-8">
+<div class="py-8" id="links">
 	<h1 class="text-4xl font-thin">Links</h1>
 	<div class="grid gap-8 mt-4 lg:grid-cols-2">
 		<div class="grid gap-4 lg:grid-cols-2">

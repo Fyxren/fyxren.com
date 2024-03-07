@@ -13,7 +13,7 @@
 	});
 </script>
 
-<div class="py-8">
+<div class="py-8" id="projects">
 	<h1 class="text-4xl font-thin">Projects</h1>
 	<div class="grid gap-2 mt-4 lg:gap-8 lg:grid-cols-2">
 		{#each repos as repo (repo.id)}

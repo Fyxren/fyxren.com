@@ -11,41 +11,19 @@
 >
 	<div class="container flex items-center h-14 max-w-screen-2xl">
 		<div class="hidden mr-4 md:flex">
-			<a href="/" class="flex items-center mr-6 space-x-2"
-				><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-6 h-6"
-					><rect width="256" height="256" fill="none"></rect><line
-						x1="208"
-						y1="128"
-						x2="128"
-						y2="208"
-						fill="none"
-						stroke="#EB4F27"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="16"
-					></line><line
-						x1="192"
-						y1="40"
-						x2="40"
-						y2="192"
-						fill="none"
-						stroke="#EB4F27"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="16"
-					></line></svg
-				>
+			<a href="/" class="flex items-center mr-6 space-x-2">
+				<img src='/logo.svg' alt="logo" class="object-contain h-6 dark:invert-0 invert" />
 				<span class="hidden font-bold sm:inline-block">Fyxren</span></a
 			>
 			<nav class="flex items-center gap-6 text-sm">
-				<a href="/about" class="transition-colors hover:text-foreground/80 text-foreground/60"
+				<a href="#about" class="transition-colors hover:text-foreground/80 text-foreground/60"
 					>About</a
 				>
-				<a href="/projects" class="transition-colors hover:text-foreground/80 text-foreground/60"
+				<a href="#projects" class="transition-colors hover:text-foreground/80 text-foreground/60"
 					>Projects</a
 				>
-				<a href="/contact" class="transition-colors hover:text-foreground/80 text-foreground/60"
-					>Contact</a
+				<a href="#links" class="transition-colors hover:text-foreground/80 text-foreground/60"
+					>Links</a
 				>
 			</nav>
 		</div>
