@@ -6,8 +6,8 @@
 
 <div class="py-8">
 	<h1 class="text-4xl font-thin">Links</h1>
-	<div class="grid grid-cols-2 gap-8 mt-4">
-		<div class="grid grid-cols-2 gap-2">
+	<div class="grid gap-8 mt-4 lg:grid-cols-2">
+		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.socials as link (link.name)}
 				<Card.Root>
 					<Card.Header>
@@ -20,7 +20,7 @@
 				</Card.Root>
 			{/each}
 		</div>
-		<div class="grid grid-cols-2 gap-4">
+		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.links as link (link.name)}
             <Card.Root>
                 <Card.Header>

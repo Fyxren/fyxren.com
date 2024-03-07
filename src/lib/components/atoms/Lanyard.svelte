@@ -64,11 +64,11 @@
 								<img
 									src={spotify.album_art_url}
 									alt="Spotify Album Art"
-									class="object-contain h-24 rounded"
+									class="object-contain h-16 rounded lg:h-20"
 								/>
 								<div>
-									<p class="text-sm font-bold text-green-500">Listening to</p>
-									<p class="text-lg font-semibold">{spotify.song}</p>
+									<p class="text-xs font-bold text-green-500 lg:text-sm">Listening to</p>
+									<p class="font-semibold lg:text-lg">{spotify.song}</p>
 									<p class="class-sm text-muted-foreground">by{spotify.artist}</p>
 									<p class="class-sm text-muted-foreground">on {spotify.album}</p>
 								</div>
@@ -84,19 +84,19 @@
 									<img
 										src={parseLargeImage(x.assets?.large_image, x.application_id)}
 										alt="Activity_Large_Image"
-										class="object-contain h-20 rounded"
+										class="object-contain h-16 rounded lg:h-20"
 									/>
 								{:else}
 									<img
 										src="/catMoonPhases.jpg"
 										alt="Activity_Large_Image"
-										class="object-contain h-20 rounded"
+										class="object-contain h-16 rounded lg:h-20"
 									/>
 								{/if}
 								<div>
-									<p class="text-lg font-medium">{x.name}</p>
-									<p class="text-muted-foreground">{x.state ?? ''}</p>
-									<p class="text-muted-foreground">{x.details ?? ''}</p>
+									<p class="font-medium lg:text-lg">{x.name}</p>
+									<p class="text-sm lg:text-base text-muted-foreground">{x.state ?? ''}</p>
+									<p class="text-sm lg:text-base text-muted-foreground">{x.details ?? ''}</p>
 								</div>
 							</div>
 						{/each}

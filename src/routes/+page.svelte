@@ -6,7 +6,7 @@
 	import Projects from '$lib/components/elements/Projects.svelte';
 </script>
 
-<main class="px-20">
+<main class="px-4 lg:px-20">
 	<Header />
 	<About />
 	<Projects />
