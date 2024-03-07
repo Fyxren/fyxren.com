@@ -1,6 +1,12 @@
+<script>
+	import Lanyard from "../atoms/Lanyard.svelte";
+
+</script>
 <div class="grid grid-cols-2 gap-20">
-	<div>LANYARD</div>
-	<div class="space-y-4">
+	<div class="self-center">
+		<Lanyard />
+	</div>
+	<div class="self-center space-y-4">
 		<p>
 			Hey there! My name is <span class="font-bold text-primary">Ben // Fyxren</span>. I am a Smart
 			Industry student and dabble as a hobbyist coder. Clocking in at 19 years old, I try to play
