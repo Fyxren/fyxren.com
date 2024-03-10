@@ -1,3 +1,9 @@
+export interface Link {
+    name: string;
+    url: string;
+    username: string;
+}
+
 /*
     The API URLs have been left out. Too many to include here, can't be bothered. I added "[key: string]: any" for this reason.
 */
