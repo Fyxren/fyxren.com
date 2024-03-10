@@ -60,12 +60,12 @@
 					{/if}
 				</Card.Content>
 				<Card.Footer class="items-end gap-4">
-					<Button variant="outline" href={repo.html_url}>
+					<Button variant="outline" href={repo.html_url} target="_blank">
 						Github
 						<Github class="w-4 h-4 ml-2" />
 					</Button>
 					{#if repo.homepage}
-						<Button variant="outline" href={repo.homepage}>
+						<Button variant="outline" href={repo.homepage} target="_blank">
 							Website
 							<ExternalLink class="w-4 h-4 ml-2" />
 						</Button>

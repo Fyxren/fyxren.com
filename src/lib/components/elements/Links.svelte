@@ -9,7 +9,7 @@
 	<div class="grid gap-8 mt-4 lg:grid-cols-2">
 		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.socials as link (link.name)}
-				<a href={link.url}>
+				<a href={link.url} target="_blank">
 					<Card.Root>
 						<Card.Header>
 							<Card.Title class="flex items-center gap-2">
@@ -24,7 +24,7 @@
 		</div>
 		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.links as link (link.name)}
-				<a href={link.url}>
+				<a href={link.url} target="_blank">
 					<Card.Root>
 						<Card.Header>
 							<Card.Title class="flex items-center gap-2">
