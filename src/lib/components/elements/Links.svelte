@@ -10,7 +10,7 @@
 		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.socials as link (link.name)}
 				<a href={link.url} target="_blank">
-					<Card.Root>
+					<Card.Root class="duration-150 hover:bg-accent">
 						<Card.Header>
 							<Card.Title class="flex items-center gap-2">
 								{link.name}
@@ -25,7 +25,7 @@
 		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.links as link (link.name)}
 				<a href={link.url} target="_blank">
-					<Card.Root>
+					<Card.Root class="duration-150 hover:bg-accent">
 						<Card.Header>
 							<Card.Title class="flex items-center gap-2">
 								{link.name}
