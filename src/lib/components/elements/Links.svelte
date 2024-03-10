@@ -9,14 +9,14 @@
 	<div class="grid gap-8 mt-4 lg:grid-cols-2">
 		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.socials as link (link.name)}
-				<a href={link.baseUrl + link.handle}>
+				<a href={link.url}>
 					<Card.Root>
 						<Card.Header>
 							<Card.Title class="flex items-center gap-2">
 								{link.name}
 								<ExternalLink class="w-4 h-4" />
 							</Card.Title>
-							<Card.Description>{link.handle}</Card.Description>
+							<Card.Description>{link.username}</Card.Description>
 						</Card.Header>
 					</Card.Root>
 				</a>
@@ -24,14 +24,14 @@
 		</div>
 		<div class="grid gap-4 lg:grid-cols-2">
 			{#each links.links as link (link.name)}
-				<a href={link.baseUrl + link.handle}>
+				<a href={link.url}>
 					<Card.Root>
 						<Card.Header>
 							<Card.Title class="flex items-center gap-2">
 								{link.name}
 								<ExternalLink class="w-4 h-4" />
 							</Card.Title>
-							<Card.Description>{link.handle}</Card.Description>
+							<Card.Description>{link.username}</Card.Description>
 						</Card.Header>
 					</Card.Root>
 				</a>

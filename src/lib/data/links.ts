@@ -2,46 +2,46 @@ export default {
     socials: [
         {
             name: 'Discord',
-            baseUrl: 'https://discord.com/users/',
-            handle: '462914535351779328'
+            url: 'https://discord.com/users/462914535351779328',
+            username: 'fyxren'
         },
         {
             name: 'Twitter',
-            baseUrl: 'https://twitter.com/',
-            handle: 'Fyxren'
+            url: 'https://twitter.com/Fyxren',
+            username: 'Fyxren'
         },
         {
             name: 'Keybase',
-            baseUrl: 'https://keybase.io/',
-            handle: 'fyxren'
+            url: 'https://keybase.io/fyxren',
+            username: 'fyxren'
         },
         {
             name: 'LinkedIn',
-            baseUrl: 'https://www.linkedin.com/in/',
-            handle: 'ben-van-der-weerd'
+            url: 'https://www.linkedin.com/in/ben-van-der-weerd',
+            username: 'ben-van-der-weerd'
         },
 
     ],
     links: [
         {
             name: 'PayPal',
-            baseUrl: 'https://paypal.me/',
-            handle: 'BenWeerd'
+            url: 'https://paypal.me/BenWeerd',
+            username: 'BenWeerd'
         },
         {
             name: 'GitHub',
-            baseUrl: 'https://github.com/',
-            handle: 'Fyxren'
+            url: 'https://github.com/Fyxren',
+            username: 'Fyxren'
         },
         {
             name: 'AniList',
-            baseUrl: 'https://anilist.co/user/',
-            handle: 'Fyxren'
+            url: 'https://anilist.co/user/Fyxren',
+            username: 'Fyxren'
         },
         {
             name: 'YouTube',
-            baseUrl: 'https://youtube.com/',
-            handle: '@Fyxren'
+            url: 'https://youtube.com/@Fyxren',
+            username: '@Fyxren'
         },
 
     ]
