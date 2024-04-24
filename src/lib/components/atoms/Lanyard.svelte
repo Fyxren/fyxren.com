@@ -33,7 +33,7 @@
 			<Card.Header>
 				<Card.Title class="flex items-center gap-2">
 					<img
-						src={`https://cdn.discordapp.com/avatars/${$data.discord_user.id}/${$data.discord_user.avatar}.gif`}
+						src={`https://cdn.discordapp.com/avatars/${$data.discord_user.id}/${$data.discord_user.avatar}.webp`}
 						alt="Avatar"
 						class="w-10 h-10 rounded-full"
 					/>
