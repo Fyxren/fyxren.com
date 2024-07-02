@@ -9,7 +9,7 @@
 	<div class="self-center space-y-4">
 		<p>
 			Hey there! My name is <span class="font-bold text-primary">Ben // Fyxren</span>. I am a Smart
-			Industry student and dabble as a hobbyist coder. Clocking in at 19 years old, I try to play
+			Industry student and dabble as a hobbyist coder. Clocking in at 20 years old, I try to play
 			the piano, enjoy watching anime and reading manga.
 		</p>
 		<p>
