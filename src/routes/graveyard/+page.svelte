@@ -40,7 +40,7 @@
 			(I may have forgotten some projects, so this list may not be exhaustive.)
 		</p>
 	</div>
-	<div class="grid grid-cols-3 gap-8">
+	<div class="grid gap-8 lg:grid-cols-3">
 		{#each graveyard as project}
 			<GraveyardCard {project} />
 		{/each}
