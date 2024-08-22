@@ -45,7 +45,7 @@ export default [
         description: 'Yet another general purpose Discord bot.',
         type: 'bot',
         tags: [],
-        group: ['Soufiane', 'Justin', 'Tygo', 'Me :)'],
+        group: ['Soufiane', 'Tygo', 'Me :)'],
     },
     {
         title: 'Mathy',
