@@ -17,5 +17,3 @@
 	<Projects />
 	<Links />
 </main>
-
-<Footer />

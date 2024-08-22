@@ -8,7 +8,7 @@
 
 <footer class="mb-10 space-y-8">
 	<hr class="border-t" />
-	<div class="grid px-5 space-y-2 text-center md:text-start md:grid-cols-8 md:px-24 xl:px-52">
+	<div class="grid items-center px-5 space-y-2 text-center md:text-start md:grid-cols-8 md:px-24 xl:px-52">
 		<div class="md:col-span-2">(✿◠‿◠)</div>
 		<div class="text-center md:col-span-4 md:place-self-center">
 			Hand-crafted with equal parts

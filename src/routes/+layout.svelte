@@ -3,6 +3,7 @@
 	import '../app.css';
 	import Navbar from '$lib/components/elements/Navbar.svelte';
 	import meta from '$lib/data/meta';
+	import Footer from '$lib/components/elements/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -35,3 +36,5 @@
 <div class="px-4 lg:px-20">
 	<slot />
 </div>
+
+<Footer />
