@@ -16,7 +16,8 @@
 	let pageMeta = {
 		title: `Graveyard • ` + meta.title,
 		description:
-			"A painful reminder of the past. Here lies in no particular order the projects that have been killed or didn't make the light of day. May they rest in peace and maybe one day, they'll be resurrected."
+			"A painful reminder of the past. Here lies in no particular order the projects that have been killed or didn't make the light of day. May they rest in peace and maybe one day, they'll be resurrected.",
+		url: meta.url + '/graveyard'
 	};
 </script>
 
@@ -25,24 +26,16 @@
 	<title>{pageMeta.title}</title>
 	<meta name="title" content={pageMeta.title} />
 	<meta name="description" content={pageMeta.description} />
-	<meta name="theme-color" content={meta.themeColor} />
-	<meta name="keywords" content={meta.keywords.join(',')} />
-	<meta name="author" content={meta.author} />
 
 	<!-- Open Graph -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content={meta.url} />
 	<meta property="og:title" content={pageMeta.title} />
 	<meta property="og:description" content={pageMeta.description} />
-	<meta property="og:image" content={meta.image} />
-	<meta property="og:site_name" content={meta.siteName} />
+	<meta property="og:url" content={pageMeta.url} />
 
 	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content={meta.url} />
 	<meta property="twitter:title" content={pageMeta.title} />
 	<meta property="twitter:description" content={pageMeta.description} />
-	<meta property="twitter:image" content={meta.image} />
+	<meta property="twitter:url" content={pageMeta.url} />
 </svelte:head>
 
 <main class="py-4 space-y-8">
