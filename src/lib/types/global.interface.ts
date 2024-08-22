@@ -1,3 +1,13 @@
+export interface GraveyardProject {
+    title: string;
+    description: string;
+    type: 'website' | 'bot' | 'other';
+    tags: string[];
+    image?: string;
+    killed?: boolean;
+    group?: string[];
+}
+
 export interface Link {
     name: string;
     url: string;

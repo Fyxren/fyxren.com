@@ -32,7 +32,7 @@
 	<meta property="twitter:image" content={meta.image} />
 </svelte:head>
 
-<main class="px-4 lg:px-20">
+<main>
 	<Header />
 	<About />
 	<Projects />

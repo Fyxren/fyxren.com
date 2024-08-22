@@ -6,4 +6,6 @@
 
 <ModeWatcher />
 <Navbar />
-<slot />
+<div class="px-4 lg:px-20">
+	<slot />
+</div>
